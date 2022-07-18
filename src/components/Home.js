@@ -1,9 +1,8 @@
 import React from 'react'
-
+import ComingSoon from './spinner/ComingSoon'
 const Home = () => {
   return (
-    <div>Home
-    </div>
+   <ComingSoon/>
   )
 }
 
