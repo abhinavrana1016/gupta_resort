@@ -8,17 +8,20 @@
     justify-content: space-around;
     align-items: center;
     height: 75px;
-    background-color:white;
+    background-color:rgb(242, 185, 185);
     color: black;
  }
  .logo{
 font-size: 30px;
+font-family: 'Edu NSW ACT Foundation', cursive;
+color: red;
  }
  .nav-links{
     display: flex;
     justify-content: flex-end;
     list-style: none;
     width: 75%;
+    margin: 0;
  }
  .home,
  .about,
@@ -31,3 +34,11 @@ font-size: 30px;
     margin: 0 10px;
     cursor: pointer;
  }
+ .mobile-menu-icon{
+    display: none;
+ }
+ /* @media screen and(max-width:780px) 
+ {
+    .logo
+    
+ } */
